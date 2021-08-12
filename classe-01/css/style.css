@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.div-espacamento {
+  margin-bottom: 10px;
+}
+
+.div-espacamento input {
+  all: unset;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 5px;
+
+  padding: 5px 10px;
+}
+
+.div-espacamento input:focus {
+  border: 1px solid #000;
+}
+
+.cep-errado input {
+  border: 2px solid red;
+}

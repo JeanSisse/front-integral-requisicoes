@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="stylesheet" href="css/style.css">
+        <script src="scripts/script.js" defer></script>
+        <title>Consulta Pokemons</title>
+    </head>
+    
+    <body class="flex-column justify-center align-center">
+        
+        <main class="card-pokedex flex-row align-center">
+            <div class="img-pokedex">
+                <div class="flex-column align-center">
+                    <div class="img flex-row align-center justify-center">
+                        <img id="sprites">
+                    </div>
+                    <div class="flex-row id-info">
+                        <span>Id:</span><b>23</b>
+                    </div>
+                </div>
+                
+                <label for="name-search">Nome
+                    <input type="text" id="name-search">
+                </label>
+            </div>
+            
+            <div class="info-pokedex flex-column align-center justify-center">
+                <label for="name">
+                    Nome:
+                    <div class="flex-column align-center justify-center" id="name">
+                        
+                    </div>
+                </label>
+                <label for="abilities">
+                    Habilidades:
+                    <div class="flex-column align-center justify-center" id="abilities">
+                        
+                    </div>
+                </label>
+            </div>
+        </main>
+    </body>
+</html>

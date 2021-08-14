@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: center/100% no-repeat url("../img/pikachu.jpg");
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.card-pokedex {
+  width: 600px;
+  background: grey;
+  gap: 10px;
+
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.info-pokedex {
+  gap: 40px;
+}
+.img-pokedex,
+.info-pokedex {
+  width: 300px;
+}
+
+.img {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 10px solid #fff;
+}
+
+.img img {
+  height: 200px;
+  width: 200px;
+}
+
+#abilities,
+#name {
+  background-color: #fff;
+  border-radius: 8px;
+  height: 70px;
+  width: 200px;
+}
+
+#name-search {
+  all: unset;
+
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  cursor: text;
+
+  padding: 5px 10px;
+
+  width: 200px;
+}
